@@ -1,16 +1,121 @@
 body {
-    background-color:#E4C1F9;
+    background-color:#EAE0D8;
     color: #FFFFFF;
+    font-family: rounded Mplus;
+    margin:0;
+
+
 }
 header {
     display:flex;
     justify-content:space-between;
+    font-size: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
 }
+
+nav {
+    border:red solid 1px;
+    width: 60%;
+    display: flex;
+    
+}
+.nav-item { 
+    padding: 3% 5%;
+    /*border:green solid 1px;*/
+    }
+
+.lang {
+    border:red solid 1px;
+    width: 25%;
+    /*border:red solid 1px;*/
+}
+
+
+#herosection img{
+  width: 300px;
+}
+
+#expertise {
+  background-color: #D3F8E2;
+  padding: 100px 50px;
+
+}
+
+h4 { font-size: 15px;
+     display: inline-flex;
+     padding: 1% 1%;
+     border:green solid 1px;
+
+}
+
+
 
 #herosection {
     display:flex;
+    padding:100px 50px;
 }
+
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+
+  }
+  
+  .flex-items:nth-child(1) {
+    width: 30%;
+  }
+  
+  .flex-items:nth-child(2) {
+    width: 30%;
+    margin: aut
+  }
+  
+  .flex-items:nth-child(3) {
+    width: 30%;
+    align-self: center;
+  }
+
+
+
+#work {
+background-color:#A9DEF9;
+padding: 100px 50px;
+}
+
+.h1 {
+  font-size: 15px;
+  display: inline-flex;
+  padding: 1% 1%;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  margin: 0px;
+
+}
+
+
+
+
+
 footer {
     display:flex;
     justify-content:space-between;
 }
+
+
+
+
+
+
